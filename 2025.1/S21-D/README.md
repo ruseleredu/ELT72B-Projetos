@@ -18,7 +18,7 @@ Link Vídeo de Teste:
 https://youtube.com/shorts/f1R4iqAajYU?si=yrzc6AZ9ckMW_j0d
 
 
-![TinkerCAD](ProjetoGenius.png)
+![TinkerCAD](./ProjetoGenius.png)
 
 
 ## Código do Arduino

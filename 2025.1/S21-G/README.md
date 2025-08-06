@@ -3,12 +3,11 @@
 ### Imagem do projeto
 
 
-![TinkerCAD](./file.png)
-
 ### Links
 TinkerCAD
 
 YouTube
+https://youtu.be/B6ith--cQiI?si=Q3TTu95twCbDMuAp
 
 ## Código do Arduino
 
