@@ -3,7 +3,7 @@
 ### Imagem do projeto
 
 
-![TinkerCAD](./file.png)
+![TinkerCAD](./tinkercad.png)
 
 ### Links
 TinkerCAD
@@ -16,5 +16,3 @@ YouTube
 // Paste code here
 
 ```
-
-
