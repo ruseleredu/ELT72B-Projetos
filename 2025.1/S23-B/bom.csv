@@ -1,0 +1,6 @@
+﻿Nome,Quantidade,Componente
+"U1",1," Arduino Uno R3"
+"R3, R4, R6, R7, R8, R9, R5",7,"220 Ω Resistor"
+"U3",1," Decodificador de sete segmentos"
+"Digit1",1,"Catódica Visor de sete segmentos"
+"S1",1," Botão"
