@@ -6,9 +6,9 @@
 ![TinkerCAD](./Template.png)
 
 ### Links
-TinkerCAD
+[TinkerCAD](https://www.tinkercad.com/things/8D2X1TflrKy/editel?sharecode=20K3g4wz07Z_4x3juZV1Vb9DiEr1QI_hnzYElNrlzfw)
 
-YouTube
+[YouTube](https://youtu.be/CrHJj4OQ6Sw?si=79bG3Z-DqjfYXIxq)
 
 ## Código do Arduino
 
