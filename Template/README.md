@@ -1,7 +1,6 @@
 ## Descrição do Projeto
 
-### Imagem do projeto
-
+Aprenda a usar um botão e acender um LED usando Arduino.
 
 ![TinkerCAD](./Template.png)
 
