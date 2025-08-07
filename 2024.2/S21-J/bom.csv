@@ -1,0 +1,9 @@
+﻿Nome,Quantidade,Componente
+"U1",1," Arduino Uno R3"
+"R1, R2, R3",3,"220 Ω Resistor"
+"U2",1,"Vermelho, 112 (0x70) Tela de relógio com 7 segmentos"
+"S1, S2",2," Interruptor deslizante"
+"U3",1," Porta quad AND"
+"D4",1,"Amarelo LED"
+"D1",1,"Vermelho LED"
+"D2",1,"Verde LED"

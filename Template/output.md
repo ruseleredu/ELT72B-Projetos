@@ -1,4 +1,4 @@
-| ﻿Nome | Quantidade | Componente |
+| Nome | Quantidade | Componente |
 |---|---|---|
 | U1 | 1 |  Arduino Uno R3 |
 | R1 | 1 | 470 Ω Resistor |
