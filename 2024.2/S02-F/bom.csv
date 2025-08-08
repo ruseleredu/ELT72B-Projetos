@@ -1,0 +1,11 @@
+﻿Nome,Quantidade,Componente
+"UUno R3",1," Arduino Uno R3"
+"DledAlarmado",1,"Vermelho LED"
+"Ddisparado",1,"Amarelo LED"
+"Ddesalarmado",1,"Verde LED"
+"Sswitch",1," Interruptor deslizante"
+"U1",1," Porta quad AND"
+"PIEZOsirene",1," Piezo"
+"DIST1",1," Sensor de distância ultrassônico (quatro pinos)"
+"R1, R2, R3, R4",4,"220 Ω Resistor"
+"DledFalha",1,"Azul LED"
