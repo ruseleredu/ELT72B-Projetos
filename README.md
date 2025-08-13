@@ -1,14 +1,11 @@
 ## Descrição do Projeto
 
 ### Imagem do projeto
-
-
 ![TinkerCAD](./file.png)
 
 ### Links
-TinkerCAD
-
-YouTube
+[TinkerCAD](https://www.tinkercad.com)
+[YouTube](https://www.youtube.com/)
 
 ## Código do Arduino
 
@@ -19,3 +16,4 @@ YouTube
 
 
 [Markdown](https://markdownlivepreview.com/)
+
