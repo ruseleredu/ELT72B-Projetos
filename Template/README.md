@@ -9,6 +9,46 @@ Aprenda a usar um botão e acender um LED usando Arduino.
 
 [YouTube](https://youtu.be/CrHJj4OQ6Sw?si=79bG3Z-DqjfYXIxq)
 
+
+## Fluxograma em Mermaid
+
+- https://mermaid.live/
+- [State diagrams](https://mermaid.js.org/syntax/stateDiagram.html)
+
+```mermaid
+stateDiagram-v2
+
+    [*] --> Setup
+
+    state Setup {
+        S_PinMode2_Input: pinMode(Button, INPUT)
+        S_PinMode10_Output: pinMode(LED, OUTPUT)       
+        S_PinMode2_Input --> S_PinMode10_Output       
+    }
+
+    Setup --> Loop: Setup Completion
+
+    state Loop {
+        L_Start: Start
+        L_ReadButton: digitalRead(Button) 
+  
+        L_LED_ON: digitalWrite(LED, HIGH)
+        L_LED_OFF: digitalWrite(LED, LOW)
+        L_Delay: delay(10)
+
+        L_Start --> L_ReadButton
+
+        L_ReadButton --> L_LED_ON: if (HIGH)
+        L_ReadButton --> L_LED_OFF: else (LOW)
+
+        L_LED_ON --> L_Delay: Delay a little bit
+        L_LED_OFF --> L_Delay: Delay a little bit
+
+        L_Delay --> L_Start: Loop continues
+
+    }
+```
+
 ## Código do Arduino
 
 ```c
