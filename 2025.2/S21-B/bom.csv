@@ -1,0 +1,9 @@
+﻿Nome,Quantidade,Componente
+"U1",1," Arduino Uno R3"
+"KEYPAD1",1," Teclado 4x4"
+"U2",1," Porta quad NAND"
+"R1, R2",2,"200 Ω Resistor"
+"D1",1,"Verde LED"
+"D2",1,"Vermelho LED"
+"PIEZO2, PIEZO1",2," Piezo"
+"U4",1,"Baseado em PCF8574, 39 (0x27) LCD 16 x 2 (I2C)"
