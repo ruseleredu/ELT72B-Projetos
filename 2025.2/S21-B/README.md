@@ -13,71 +13,6 @@ Aprenda a criar um sistema de senhas com Arduino, usando teclado matricial, disp
 
 ## Fluxograma em Mermaid
 
-- Código do Fluxograma:
-  ```
-  graph TD
-  A([Início]) --> B[Setup do sistema\nLCD, Teclado, EEPROM, Pinos]
-  B --> C[Carregar senha da EEPROM]
-  C --> D[Exibir: T - TRANCADO]
-
-  D --> E{Sistema bloqueado?}
-
-  E -- Sim --> F{Passaram 20 segundos?}
-  F -- Não --> F
-  F -- Sim --> G[Desbloquear sistema\nZerar tentativas]
-  G --> H[Exibir: T - TRANCADO]
-  H --> D
-
-  E -- Não --> I[Aguardar tecla do teclado]
-  I --> J{Tecla pressionada?}
-
-  J -- Não --> D
-
-  J -- Sim --> K{Tecla = D?}
-  K -- Sim --> L[Entrar em modo\nDefinir nova senha]
-  L --> L1[Aguardar dígitos\nLoop interno]
-  L1 --> L2{Tecla numérica?}
-  L2 -- Sim --> L3[Beep + Mostrar *\nSenha < 4?]
-  L3 --> L1
-  L2 -- Não --> L4{Tecla = #?}
-
-  L4 -- Não --> L1
-  L4 -- Sim --> L5{Senha tem 4 dígitos?}
-  L5 -- Não --> L6[Mensagem: 4 DIGITOS!\nLimpar senha]
-  L6 --> D
-  L5 -- Sim --> L7[Salvar senha na EEPROM]
-  L7 --> L8[Mensagem: SENHA SALVA]
-  L8 --> D
-
-  K -- Não --> M{Tecla numérica?}
-  M -- Sim --> N[Emitir beep]
-  N --> O{Senha < 4 dígitos?}
-  O -- Sim --> P[Adicionar dígito\nMostrar *]
-  P --> D
-  O -- Não --> D
-
-  M -- Não --> Q{Tecla = #?}
-  Q -- Não --> D
-  Q -- Sim --> R{Senha tem 4 dígitos?}
-  R -- Não --> S[Mensagem: 4 DIGITOS!\nLimpar senha]
-  S --> D
-  R -- Sim --> T{Senha correta?}
-
-  T -- Sim --> U[Zerar tentativas]
-  U --> V[Acesso permitido\nLED verde + buzzer]
-  V --> W[Esperar 5s]
-  W --> X[Fechar acesso\nLimpar senha]
-  X --> D
-
-  T -- Não --> Y[Incrementar tentativas]
-  Y --> Z[Acesso negado\nLED vermelho + buzzer]
-  Z --> AA{Tentativas >= 3?}
-  AA -- Sim --> AB[Bloquear sistema\n20 segundos]
-  AB --> D
-  AA -- Não --> AC[Limpar senha digitada]
-  AC --> D
-  ```
-
 - Imagem do Fluxograma:
 
 ```mermaid
@@ -446,3 +381,4 @@ void acessoNegado() {
 |D2|1|Vermelho LED|
 |PIEZO 2, PIEZO1|2|Piezo|
 |U4|1|Baseado em PCF8574, 39 (0x27) LCD 16 x 2 (I2C)|
+
