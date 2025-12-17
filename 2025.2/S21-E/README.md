@@ -2,7 +2,7 @@
 
 Sensores multiponto para estacionar veículos, consiste de 4 sensores que vão detectar a distância ao objeto a frente e o que estiver mais perto vai definir a intensidade do buzzer que vai emitir som, além disso essa intesidade/distância vai ser mostrada em um display sete segmentos. 
 
-![TinkerCAD](./Template.png)
+![TinkerCAD](./template.png)
 
 ### Links
 [TinkerCAD](https://www.tinkercad.com/things/1wRUPHaSH1q-terrific-lappi-elzing/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard)
