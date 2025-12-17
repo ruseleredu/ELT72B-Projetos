@@ -5,7 +5,7 @@ Sensores multiponto para estacionar veículos, consiste de 4 sensores que vão d
 ![TinkerCAD](./template.png)
 
 ### Links
-[TinkerCAD](https://www.tinkercad.com/things/1wRUPHaSH1q-terrific-lappi-elzing/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard)
+[TinkerCAD](https://www.tinkercad.com/things/1wRUPHaSH1q-terrific-lappi-elzing?sharecode=2U0jVExzHOU8YVrM2hEJ2-BdZLnjYoJooPszz6cEgA8)
 
 [YouTube](https://www.youtube.com/watch?v=ppi5bzmh2Hw)
 
