@@ -1,6 +1,6 @@
 ## Descrição do Projeto
 
-Aprenda a usar um botão e acender um LED usando Arduino.
+Fechadura eletrônica automatizada por senha.
 
 ![TinkerCAD](./projeto.png)
 
