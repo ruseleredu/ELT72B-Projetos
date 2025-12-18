@@ -1,0 +1,12 @@
+﻿Nome,Quantidade,Componente
+"U3",1," Arduino Uno R3"
+"U4",1," Decodificador de sete segmentos"
+"R11, R12, R13, R14, R15, R16, R17, R19, R18",9,"220 Ω Resistor"
+"Digit2",1,"Catódica Visor de sete segmentos"
+"DIST2",1," Sensor de distância ultrassônico (quatro pinos)"
+"D5",1,"Verde LED"
+"D4",1,"Vermelho LED"
+"R20",1,"1 kΩ Resistor"
+"T2",1," Transistor NPN (BJT)"
+"D6",1," Diodo"
+"M2",1," Motor CC"
