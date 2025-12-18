@@ -1,0 +1,9 @@
+| Nome | Quantidade | Componente |
+|---|---|---|
+| U1 | 1 |  Arduino Uno R3 |
+| PIEZO1 | 1 |  Piezo |
+| D1 | 1 | Vermelho LED |
+| R1 | 1 | 10 kΩ Resistor |
+| R2, R3 | 2 | 220 Ω Resistor |
+| S1 | 1 |  Botão |
+| U2 | 1 |  Porta quad NAND |
