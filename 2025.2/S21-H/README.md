@@ -5,10 +5,10 @@ Nosso projeto é um Bebedouro com um sensor de aproximação. Ao aproximar o cop
 Utilizamos todos os critérios passados pelo professor:
 Utilizamos um sensor de distância ultrasonico (HC-SR04), assim como um CI decotificador (CD4511) para instalação do display de sete segmentos que é uma das nossas saídas, além de claro, a bomba, utilisamos o Arduino Uno R3 para fazer o controle do sistema do projeto. Após essas considerações, fizemos a simulação no ThinkerCAD e montamos o projeto físico, então por último, fizemos um vídeo explicativo do nosso projeto.
 
-![TinkerCAD](./Grupo S21-H.png)
+![TinkerCAD](./GrupoS21-H.png)
 
 ## Links
-[TinkerCAD](https://www.tinkercad.com/things/4P8AJyjVY7f-grupo-s21-h)
+[TinkerCAD](https://www.tinkercad.com/things/4P8AJyjVY7f-grupo-s21-h/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=w669nUZbl7ghV0WBgWE0CEwW0OujkGFaGAcf8uWHZCU)
 
 [YouTube](https://youtu.be/J20hsn5bg9U)
 
@@ -18,8 +18,6 @@ Utilizamos um sensor de distância ultrasonico (HC-SR04), assim como um CI decot
 - [State diagrams](https://mermaid.js.org/syntax/stateDiagram.html)
 
 ```mermaid
-stateDiagram-v2
-
 graph TD
     A[Início: loop] --> B["dist = distanciaMedia(3)"]
     B --> C{dist > LIMITE_CM?}
@@ -51,10 +49,11 @@ graph TD
     Q -- Sim --> R["Atraso 3000ms<br/>(ESPERA_REENTRADA)"]
     R --> A
     Q -- Não --> A
+
 ```
 
 ## Código do Arduino
-
+```c
 #define MOTOR 13
 #define LED_VERDE 11
 #define LED_VERMELHO 12
@@ -175,7 +174,7 @@ void loop() {
     delay(ESPERA_REENTRADA_MS);
   }
 }
-
+```
 
 ## Lista de componentes
 
