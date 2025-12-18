@@ -5,14 +5,57 @@ Fechadura eletrônica automatizada por senha.
 ![TinkerCAD](./projeto.png)
 
 ### Links
-[TinkerCAD]()
+[TinkerCAD](https://www.tinkercad.com/things/jopJZiPlP8A-grupo-s21-d/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=4jNSaxFH2I_HAA3p_Q6voFEMA5iDl-HtAvT1Tg23VhA)
 
 [YouTube](https://www.youtube.com/watch?v=1U_vJeipmOM)
 
 
 ## Fluxograma 
+ 
+```mermaid
+flowchart TD
 
-![TinkerCAD](./fluxograma.png)
+A[Início] --> B[Setup: configurar pinos, servo e displays]
+B --> C[Loop]
+
+C --> D{Botão UP pressionado?}
+D -->|Sim| E[Incrementa digitoAtual<br/>Se passar de 9 → volta para 0]
+E --> F[Exibe no display correto]
+F --> C
+
+D -->|Não| G{Botão DOWN pressionado?}
+G -->|Sim| H[Decrementa digitoAtual<br/>Se menor que 0 → volta para 9]
+H --> I[Exibe no display correto]
+I --> C
+
+G -->|Não| J{Botão ENTER pressionado?}
+J -->|Sim| K{primeiroDigito já foi definido?}
+
+K -->|Não| L[Salvar primeiroDigito = digitoAtual]
+L --> M[digitoAtual = 0<br/>Atualizar display 2]
+M --> C
+
+K -->|Sim| N[Salvar segundoDigito = digitoAtual]
+
+N --> O[senhaDigitada = primeiroDigito*10 + segundoDigito]
+
+O --> P{senhaDigitada == senha?}
+
+P -->|Sim| Q[Acender LED Verde<br/>Abrir servo 90°]
+Q --> R[Aguardar 3s]
+R --> S[Fechar servo e apagar LED Verde]
+S --> T[Resetar dígitos e displays]
+T --> C
+
+P -->|Não| U[Acender LED Vermelho]
+U --> V[Aguardar 3s]
+V --> W[Apagar LED Vermelho]
+W --> T
+
+J -->|Não| C
+
+```
+
 
 ## Código do Arduino
 
