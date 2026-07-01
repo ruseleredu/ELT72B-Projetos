@@ -1,0 +1,16 @@
+Categoria,Quantidade,Nome,Componente
+"Resistores,8,""R1,R2,R3,R4,R5,R6,R7,R12"",Resistores 220 Ohms"
+"Resistores,4,""R8,R9,R10,R11"",Resistores 1k Ohms"
+Circuitos Integrados,1,U1,Arduino Mega
+Circuitos Integrados,1,U2,DS1302
+Circuitos Integrados,1,U3,CD4051BE
+Circuitos Integrados,1,U4,LM35
+"Transistores,4,""Q1,Q2,Q3,Q4"",BC547"
+"Miscelanea,2,""ALM-ACTV,SET+/-"",Chave de selecao 2-vias"
+"Miscelanea,5,""ALM-OFF,H+/-,M+/-,PROG-MODE,SET-MODE"",Botao"
+Miscelanea,1,BAT1,Bateria CR-2032 3V
+Miscelanea,1,BUZ1,Buzzer
+"Miscelanea,2,""DOT-1,DOT-2"",Led Vermelho"
+Miscelanea,1,LCD1,LM016L
+Miscelanea,1,RV1,Trimpot 2k
+
