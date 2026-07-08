@@ -1,0 +1,12 @@
+Vídeo privado postado no canal:
+
+https://youtu.be/sc2x6Bq-dR8
+
+Projeto no thinker cad:
+
+https://www.tinkercad.com/things/46xcWm4ssJs-simulacao-projeto-final-/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=JNfsJX6xV4kDeonCsoUPg9KTGEgK8JQWtuVLt9ua7Rg
+
+Arquivo.MD e template não puderam ser enviados nessa atividades  por conta do tamanho e foram enviados anexos no e-mail 'Pasta do firmware do projeto final'
+
+
+Arquivo: https://github.com/OpenStickCommunity/GP2040-CE/tree/main/configs/Pico
