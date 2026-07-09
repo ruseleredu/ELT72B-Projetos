@@ -1,0 +1,8 @@
+﻿Nome,Quantidade,Componente
+"U1",1," Arduino Uno R3"
+"SERVO1, SERVO2, SERVO3, SERVO4, SERVO5, SERVO6",6,"Posicional Micro servo"
+"S1",1," Botão"
+"U2",1," Porta quad AND"
+"D1",1,"Vermelho LED"
+"R1",1,"220 Ω Resistor"
+"P1",1,"30 , 5  Fonte de energia"
